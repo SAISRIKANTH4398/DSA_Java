@@ -19,7 +19,7 @@ class splitArrLargestSum {
             int pieces = 1;
 
             for(int num: arr){
-                if(sum + num > mid){
+                if(sum + num > mid){ //splitting array when sum is greater than mid
                     sum = num;
                     pieces++;
                 }else{
