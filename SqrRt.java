@@ -1,9 +1,10 @@
 class SqrRt {
     public static void main(String[] args){
-
+        int x = 8;
+        System.out.println(mysqrt(x));
     }
 
-    int mysqrt(int x){
+    static int mysqrt(int x){
         int start = 1;
         int end = x/2;
 
