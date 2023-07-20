@@ -1,7 +1,7 @@
 class SqrRt {
     public static void main(String[] args){
         int x = 8;
-        System.out.println(mysqrt(x));
+        System.out.println(mysqrt(x));  //returns floor value
     }
 
     static int mysqrt(int x){
