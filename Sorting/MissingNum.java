@@ -1,7 +1,5 @@
 package Sorting;
 
-import java.util.Arrays;
-
 class MissingNum {
     public static void main(String[] args){
         int[] arr = {4, 0, 3, 2};
